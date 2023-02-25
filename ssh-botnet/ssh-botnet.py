@@ -30,8 +30,8 @@ def add_client(host, user, password):
     botNet.append(client)
 
 botNet = []
-
+order = input('command: ')
 add_client('192.168.0.171', 'chien', '123456')
-botnetCommand('uname -v')
+botnetCommand(order)
         
         
